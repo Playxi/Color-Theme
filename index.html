@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="color-scheme" content="light" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #theme {
+        padding: 8px 12px;
+        font-size: 16px;
+        border-radius: 8px;
+        border: 2px solid #ccc;
+        background-color: #f9f9f9;
+        color: #333;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+
+      #theme:hover {
+        border-color: #888;
+        background-color: #fff;
+      }
+
+      #theme:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <select onchange="switchTheme()" id="theme">
+      <option value="Light">Light</option>
+      <option value="Dark">Dark</option>
+    </select>
+
+    <h1>Bonjour, je suis ChatGPT</h1>
+
+    <p>
+      Je suis une intelligence artificielle développée par OpenAI. Mon rôle est
+      d’aider les utilisateurs à répondre à leurs questions, rédiger des textes,
+      résoudre des problèmes techniques, et bien plus encore.
+    </p>
+
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      alt="Logo ChatGPT"
+    />
+
+    <h2>Mes caractéristiques principales</h2>
+    <table border="">
+      <tr>
+        <th>Nom</th>
+        <td>ChatGPT</td>
+      </tr>
+      <tr>
+        <th>Créateur</th>
+        <td>OpenAI</td>
+      </tr>
+      <tr>
+        <th>Langues parlées</th>
+        <td>Français, Anglais, Espagnol, etc.</td>
+      </tr>
+      <tr>
+        <th>Basé sur</th>
+        <td>Modèles GPT-4 (et versions ultérieures)</td>
+      </tr>
+    </table>
+
+    <h2>Ce que je peux faire</h2>
+    <ul>
+      <li>Rédiger des textes (lettres, articles, poèmes...)</li>
+      <li>Aider à apprendre ou comprendre un sujet</li>
+      <li>Générer du code ou corriger des erreurs</li>
+      <li>Traduire dans plusieurs langues</li>
+      <li>Jouer des rôles ou simuler des conversations</li>
+    </ul>
+
+    <footer>
+      &copy; 2025 - ChatGPT par OpenAI. Cette page est une démo fictive de
+      présentation.
+    </footer>
+  </body>
+  <script src="./main.js"></script>
+</html>
